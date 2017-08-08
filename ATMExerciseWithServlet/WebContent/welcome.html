@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="utils/css/materialize.min.css">
+<script type="text/javascript" charset="utf-8"
+	src="utils/js/materialize.min.js"></script>
+<script type="text/javascript" charset="utf-8"
+	src="controllers/login.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="ISO-8859-1">
+<title>Helopo</title>
+<header> 
+	<nav class="red lighten-2">
+    <div class="nav-wrapper" style="padding-left:30px;">
+      <a href="#" class="brand-logo">Simple Banking Application</a>
+    </div>
+  </nav>
+</header>
+</head>
+<body>
+
+	<div class="row" style="padding-top:40px;">
+		<div class="col s4 offset-s4">
+			<div class="card  z-depth-2">
+				<div style="padding: 25px;">
+					<!--  -<form method = "post" action="Test">-->
+					<form action="javascript:verify()">
+						<h4>Login</h4>
+						<input class="input-field" type="text" id="username"
+							name="username" placeholder="User Name" class="validate" required
+							autofocus> <input class="input-field" type="password"
+							id="password" name="password" placeholder="Password"
+							class="validate" required>
+						<div class="row">
+							<center>
+								<button type="submit"
+									class="waves-effect waves-light btn z-depth-1 red lighten-2">
+									<i class="material-icons left">send</i>Login
+								</button>
+							</center>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
