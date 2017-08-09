@@ -35,9 +35,7 @@ public class ATM extends HttpServlet {
 		welcome.forward(request, response);
 //		String username = request.getParameter("username");
 //		String password = request.getParameter("password");
-//		System.out.println("username = " + username);
-//		System.out.println("password = " + password);
-//	
+
 //		if(username.equalsIgnoreCase( "admin") && password.equalsIgnoreCase("admin")){
 //			System.out.println("hi");
 //			main = request.getRequestDispatcher("main.html");
